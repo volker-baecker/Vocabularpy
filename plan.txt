@@ -1,0 +1,72 @@
+Requirements
+
+select a user, enter password
+
+ML = Mother Language	FL = Foreign Language
+
+Enter and store
+1 word in FL - up to 3 in ML
+A phrase
+eine Eselsbrücke
+an image
+
+Learn:
+
+if nothing to learn add next lesson to new lesson
+
+for each word store last answered date and the level
+
+level 0 - new, 
+level 1 - repeat after one day
+level 2 - repeat after two days
+level 3 - repeat after four days
+level 4 - repeat after eight days
+level 5 - repeat after sixteen days
+level 6 - learned
+
+	Always ask old words before new ones
+	
+Ask for FL is a different word than ask for ML
+	
+score:
+
+for every right answer 1 point
+if learned yesterday 2 points per right answer
+if learned 5 days in a row 5 points per right answer
+
+Possibility to test lesson
+
+	if unknown put back to level 0
+	
+test - کضقی
+
+	
+
+Edit lesson
+save lesson from voc file
+read lesson from voc file
+
+voc file format:
+
+fl word - ml1, ml2, ml3
+e: example phrase
+m: mnemonic
+u: image-url
+
+------------------
+
+menu new lesson
+name 
+saved with the next available number in lessons folder
+
+save status per user and language
+	save it in a <user>-status.yml file in the language folder
+	
+	
+	
+name: [] passwd: [] 	login
+	 passwd: [] 	create new user
+	 
+	 
+language: []
+
